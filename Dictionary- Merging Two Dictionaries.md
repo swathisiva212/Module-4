@@ -12,7 +12,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 ## 🧾 Program
 
 Add code here
+```
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+dict1.update(dict2)
+print(dict1)
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/458a5477-7804-4e50-8b65-8136318d8029)
 
 ## Result
+The program successfully merges two dictionaries using the unpacking operator, with overlapping keys in dict2 overwriting those in dict1.
