@@ -12,7 +12,22 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 Add code here
+```
+n=int(input())
+a=[]
+for i in range(n):
+    l=int(input())
+    a.append(l)
+
+print(a)
+try:
+    print(a[6])
+except Indexerror:
+    print("6 is not accepted")
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/1a37e57e-ff41-46f1-8a53-1bf47e644d2c)
 
 ## Result
+The program successfully handles the IndexError when trying to access an element beyond the list’s range and displays a custom error message.
